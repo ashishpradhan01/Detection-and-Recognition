@@ -1,7 +1,6 @@
 '''Criminal Identification System Using Face Detection and Recognition'''
 # KeyWords: Criminal Identification; CCTV; facial recognition; Haar classifier; real-time; Viola-Jones; OpenCV
 
-import numpy as np2
 import cv2
 import numpy as np
 
