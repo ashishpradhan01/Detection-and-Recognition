@@ -17,7 +17,7 @@ for i, files in enumerate(onlyfiles):
 
 Labels = np.asarray(Labels, dtype=np.int32)
 
-
+#install "opencv-contrib-python"
 model = cv2.face.LBPHFaceRecognizer_create()
 model.train(np.asarray(Training_data), np.asarray(Labels))
 
